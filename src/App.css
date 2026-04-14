@@ -1,0 +1,26 @@
+.like-btn {
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: #888;
+  color: #888;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.like-btn svg {
+  margin-right: 5px;
+}
+
+.like-btn:hover, .like-btn.active:hover {
+  color: #f00;
+  border-color: #f00;
+  background-color: #fff;
+}
+
+.like-btn.active { 
+  background-color: #f00;
+  color: #fff;
+  border-color: #f00;
+}
