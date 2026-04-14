@@ -1,3 +1,5 @@
+import {useContext} from 'react';
+import { LikeButtonContext } from './App';
 import Icon from "./Icon";
 import ResultMsg from "./ResultMsg";
 

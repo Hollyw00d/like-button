@@ -18,12 +18,11 @@ Plan:
 
 3. Use <HeartIcon /> and <SpinnerIcon /> for icons
 */
-import {useState, createContext, useContext} from 'react';
-import { HeartIcon, SpinnerIcon } from './Icons.jsx';
+import {useState, createContext} from 'react';
 import LikeButton from './LikeButton.jsx';
 import './App.css';
 
-const LikeButtonContext = createContext(null);
+export const LikeButtonContext = createContext(null);
 
 export default function App() {
    const [stateObj, setStateObj] = useState({

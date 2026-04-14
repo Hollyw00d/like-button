@@ -1,3 +1,6 @@
+import {useContext} from 'react';
+import { LikeButtonContext } from './App';
+
 export default function ResultMsg() {
    const {isError, isLoading, lastAction} = useContext(LikeButtonContext);
    let resultMsg = null;
